@@ -47,7 +47,7 @@ function calculateRiskScores(
 }
 
 function calculateAgePoints(age) {
-    // JT will implement this function
+    // JP will implement this function
     /*
     if (age < 30) {
         return 0;
