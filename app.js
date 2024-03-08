@@ -13,6 +13,10 @@ app.use((req, res, next) => {
     next();
 });
 
+app.get("/ping", (req, res) => {
+    res.json({ message: "Ping successful!" });
+});
+
 app.post("/api/v1/risks", (req, res) => {
     res.json(
         calculateRiskScores(
