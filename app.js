@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Middleware to enable CORS
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*"); // Allow requests from any origin
+    res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
