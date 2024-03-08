@@ -47,6 +47,8 @@ function calculateRiskScores(
 }
 
 function calculateAgePoints(age) {
+    // JT will implement this function
+    /*
     if (age < 30) {
         return 0;
     } else if (age < 45) {
@@ -56,6 +58,8 @@ function calculateAgePoints(age) {
     } else {
         return 30;
     }
+    */
+   return 0 // Remove this line once your done.
 }
 
 function calculateBmiPoints(lbs, feet, inches) {
@@ -99,6 +103,8 @@ function calculateFamilyDiseasePoints(
     isFamilyHistoryAlzheimers,
     isFamilyHistoryDiabetes
 ) {
+    // Nico will implement this function
+    /*
     let points = 0;
     if (isFamilyHistoryCancer) {
         points += 10;
@@ -110,6 +116,8 @@ function calculateFamilyDiseasePoints(
         points += 10;
     }
     return points;
+    */
+   return 0 // Remove this line once your done
 }
 
 module.exports = { calculateRiskScores };
