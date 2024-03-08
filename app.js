@@ -17,6 +17,10 @@ app.get("/ping", (req, res) => {
     res.json({ message: "Ping successful!" });
 });
 
+app.get("/", (req, res) => {
+    res.json("Health Insurance API");
+});
+
 app.post("/api/v1/risks", (req, res) => {
     res.json(
         calculateRiskScores(
